@@ -47,7 +47,7 @@ end
 
 def turn_count(board)
   position_counter = 0
-  board.each do |position| # can we shorten this block?
+  board.each do |position| 
     if position == "X" || position == "O" 
       position_counter += 1
     end
